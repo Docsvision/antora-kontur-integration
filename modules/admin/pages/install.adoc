@@ -24,7 +24,16 @@ WARNING: Перед установкой ознакомьтесь с разде�
 include::6.1@platform:admin:partial$install.adoc[]
 . Установите расширение _{of-mk}_ {wc}а следующей командой:
 +
- sudo apt-get install docsvision-ext-CAKonturWebExtension
+[tabs]
+====
+Astra Linux::
++
+ $ sudo apt-get install docsvision-ext-cakontur-webc
+
+РЕД ОС::
++
+ $ sudo dnf install docsvision-ext-cakontur-webc
+====
 +
 . <<windows,Установите>> серверные компоненты модуля в ОС Windows.
 
@@ -87,8 +96,7 @@ image::install-server-components.png[Устанавливаемые компон
 
 . Чтобы удалить модуль, выполните команду:
 +
-[subs=attributes]
- $ sudo apt-get purge docsvision-{wt}
+include::6.1@platform:admin:partial$delete.adoc[]
 +
 . Удалите настройки модуля из _{of-mk}_.
 . Удалите серверный компонент _{of-mk}_ в ОС Windows стандартным способом.
