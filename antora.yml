@@ -1,6 +1,6 @@
 name: kontur-integration
-version: 'GBL-3995'
-prerelease: true
+version: '5.5.1'
+prerelease: false
 title: Модуль интеграции с УЦ Контур
 asciidoc:
   attributes:
@@ -18,7 +18,7 @@ asciidoc:
     of-mk: 'Модуля интеграции с УЦ Контур'
     uc: 'УЦ Контур'
     kc-v: '5.5.1, сборка 75'
-    kc-api-req: '5.5.1, сборка ???'
+    kc-api-req: '5.5.1, сборка 89'
 #    log: 'Журнал обмена с реестром МЧД'
 
 nav:
