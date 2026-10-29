@@ -15,7 +15,11 @@ include::dv6@install-linux:ROOT:requirements-software.adoc[tags=oslist]
 == Необходимое программное обеспечение
 
 * СКЗИ КриптоПро CSP версии {csp-v} должно быть установлено на клиентских машинах (если используется {wincl}) и сервере {wc}а. См. подробнее требования в документации модуля xref:6.1@backoffice::requirements.adoc#crypto-pro[{bo}].
-* Для подписания через модуль интеграции с УЦ Контур на сервере {wc}а требуется библиотека `CryptoPro.Security.Cryptography.dll` из состава КриптоПро .NET LibCore и лицензия КриптоПро .NET. Требования и порядок установки библиотеки приведены в документации модуля _{pl}_, в разделе "xref:6.1@platform:ROOT:requirements-software.adoc#server[Требования серверной части системы]".
+* Для подписания через {mk} на сервере {wc}а:
++
+--
+include::engineer:ROOT:partial$excerpts.adoc[tags=dll]
+--
 
 [#network]
 == Требования к каналам связи
